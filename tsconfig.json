@@ -2,6 +2,7 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
+    "types": ["expo-router/types"],
     "paths": {
       "@/*": [
         "./*"
@@ -13,5 +14,5 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-  ]
+, "Api.tsx", "src/reducers/UserReducer.tsx", "src/contexts/UserContext.tsx", "components/SignInput.tsx", "assets/screens/home/index.tsx"  ]
 }
